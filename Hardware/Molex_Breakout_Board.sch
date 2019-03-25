@@ -21748,10 +21748,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,113.623,119.543,J1,,,,,"/>
-<approved hash="113,1,113.623,99.2226,J2,,,,,"/>
-<approved hash="113,1,187.283,81.4426,J3,,,,,"/>
-<approved hash="113,1,189.823,152.563,J4,,,,,"/>
+<approved hash="113,1,113.623,119.448,J1,,,,,"/>
+<approved hash="113,1,113.623,99.1277,J2,,,,,"/>
+<approved hash="113,1,187.283,81.3477,J3,,,,,"/>
+<approved hash="113,1,189.823,152.468,J4,,,,,"/>
 </errors>
 </schematic>
 </drawing>
