@@ -2996,8 +2996,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <elements>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-17.78" y="-23.495"/>
 <element name="MOLEX_CONNECTOR" library="SparkFun-Retired" package="COMPUTER-PERIPHERAL-POWER-RA" value="COMPUTER_PERIPHERAL_POWERRA" x="17.145" y="23.114" smashed="yes">
-<attribute name="NAME" x="15.875" y="28.321" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="15.875" y="24.892" size="0.6096" layer="27" font="vector" ratio="20"/>
+<attribute name="NAME" x="15.875" y="28.321" size="0.6096" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="15.875" y="24.892" size="0.6096" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="17.145" y="29.464" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="23.495" y="21.844" rot="MR0"/>
