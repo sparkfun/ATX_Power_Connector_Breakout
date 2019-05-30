@@ -1,9 +1,9 @@
 SparkFun Molex Conenctor Breakout Board
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![SparkFun Molex Breakout - 4-Pin](URL for picture of part)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Molex Breakout - 4-Pin (BOB-15035)*](URL for product on Sparkfun.com)
 
 <Basic description of the part.>
 
@@ -14,7 +14,7 @@ Repository Contents
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
+* [BOB-15035](part URL)
 
 
 License Information
