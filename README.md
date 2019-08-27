@@ -1,4 +1,4 @@
-SparkFun ATX Power Connector Breakout
+SparkFun ATX Power Connector (4-Pin) Breakout
 ========================================
 
 ![SparkFun ATX Power Conenctor Breakout- 4-Pin](URL for picture of part)
