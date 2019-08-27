@@ -1,9 +1,9 @@
-SparkFun Molex Conenctor Breakout Board
+SparkFun ATX Power Conenctor Breakout
 ========================================
 
-![SparkFun Molex Breakout - 4-Pin](URL for picture of part)
+![SparkFun ATX Power Conenctor Breakout- 4-Pin](URL for picture of part)
 
-[*SparkFun Molex Breakout - 4-Pin (BOB-15035)*](URL for product on Sparkfun.com)
+[*SparkFun ATX Power Conenctor Breakout - 4-Pin (BOB-15035)*](URL for product on Sparkfun.com)
 
 <Basic description of the part.>
 
