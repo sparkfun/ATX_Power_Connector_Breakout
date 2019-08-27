@@ -1,4 +1,4 @@
-SparkFun ATX Power Conenctor Breakout
+SparkFun ATX Power Connector Breakout
 ========================================
 
 ![SparkFun ATX Power Conenctor Breakout- 4-Pin](URL for picture of part)
@@ -11,6 +11,11 @@ Repository Contents
 -------------------
 
 * **/Hardware** - Eagle design files (.brd, .sch)
+
+Documentation
+-------------------
+
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/atx-power-connector-4-pin-breakout-hookup-guides)**
 
 Product Versions
 ----------------
