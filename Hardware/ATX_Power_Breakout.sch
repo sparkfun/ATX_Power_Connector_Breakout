@@ -21575,7 +21575,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="MOLEX_CONNECTOR" library="SparkFun-Retired" deviceset="COMPUTER_PERIPHERAL_POWER" device="RA"/>
+<part name="ATX_POWER_CONNECTOR" library="SparkFun-Retired" deviceset="COMPUTER_PERIPHERAL_POWER" device="RA"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="5MM"/>
@@ -21608,13 +21608,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="238.76" y="7.62" size="2.54" layer="97">v1.0</text>
 <text x="96.52" y="134.62" size="2.54" layer="95" font="vector" ratio="15">5mm Screw Terminals</text>
 <text x="177.8" y="99.06" size="2.54" layer="95" font="vector" ratio="15">0.1" PTH Header Pins</text>
-<text x="10.16" y="134.62" size="2.54" layer="95" font="vector" ratio="15">4-Pin Right Angle Molex Connector</text>
+<text x="25.4" y="132.08" size="2.54" layer="95" font="vector" ratio="15">4-Pin Right Angle or
+Vertical Power Connector</text>
 <wire x1="91.44" y1="185.42" x2="91.44" y2="0" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="185.42" x2="147.32" y2="116.84" width="0.2032" layer="95" style="shortdash"/>
 <text x="165.1" y="162.56" size="2.54" layer="95" font="vector" ratio="15">0.1" SMD Right Angle Header Pins</text>
 <wire x1="147.32" y1="116.84" x2="147.32" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="116.84" x2="248.92" y2="116.84" width="0.1524" layer="97" style="shortdash"/>
-<text x="7.62" y="63.5" size="2.54" layer="95" font="vector" ratio="15">Note: The molex connector's package
+<text x="7.62" y="63.5" size="2.54" layer="95" font="vector" ratio="15">Note: The power connector's package
 has been adjusted for the vertical 
 mount as well! Just follow the dashed 
 silkscreen that outlines the vertical 
@@ -21623,7 +21624,7 @@ mount connector.</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
-<instance part="MOLEX_CONNECTOR" gate="G$1" x="48.26" y="111.76" smashed="yes">
+<instance part="ATX_POWER_CONNECTOR" gate="G$1" x="48.26" y="111.76" smashed="yes">
 <attribute name="VALUE" x="15.24" y="101.6" size="1.778" layer="96" font="vector" ratio="15"/>
 <attribute name="NAME" x="30.48" y="117.602" size="1.778" layer="95" font="vector" ratio="15"/>
 </instance>
@@ -21657,7 +21658,7 @@ mount connector.</text>
 <nets>
 <net name="12V" class="0">
 <segment>
-<pinref part="MOLEX_CONNECTOR" gate="G$1" pin="12V"/>
+<pinref part="ATX_POWER_CONNECTOR" gate="G$1" pin="12V"/>
 <wire x1="55.88" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="114.3" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="12V"/>
@@ -21683,11 +21684,11 @@ mount connector.</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="MOLEX_CONNECTOR" gate="G$1" pin="GND@2"/>
+<pinref part="ATX_POWER_CONNECTOR" gate="G$1" pin="GND@2"/>
 <wire x1="55.88" y1="109.22" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="109.22" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="MOLEX_CONNECTOR" gate="G$1" pin="GND@1"/>
+<pinref part="ATX_POWER_CONNECTOR" gate="G$1" pin="GND@1"/>
 <wire x1="63.5" y1="111.76" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="111.76" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
 <junction x="63.5" y="109.22"/>
@@ -21731,7 +21732,7 @@ mount connector.</text>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="MOLEX_CONNECTOR" gate="G$1" pin="5V"/>
+<pinref part="ATX_POWER_CONNECTOR" gate="G$1" pin="5V"/>
 <wire x1="55.88" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
 <wire x1="71.12" y1="106.68" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
