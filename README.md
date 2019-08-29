@@ -15,7 +15,7 @@ Repository Contents
 Documentation
 -------------------
 
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/atx-power-connector-4-pin-breakout-hookup-guides)**
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/atx-power-connector-4-pin-breakout-hookup-guide)**
 
 Product Versions
 ----------------
