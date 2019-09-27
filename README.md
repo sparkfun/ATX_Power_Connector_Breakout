@@ -1,7 +1,7 @@
 SparkFun ATX Power Connector Breakout - 12V/5V (4-pin)
 ========================================
 
-[![SparkFun ATX Power Connector Breakout - 12V/5V (4-pin)](URL for picture of part)](https://www.sparkfun.com/products/15035)
+[![SparkFun ATX Power Connector Breakout - 12V/5V (4-pin)](https://cdn.sparkfun.com/assets/parts/1/3/3/6/7/15035-SparkFun_ATX_Power_Connector_Breakout_Board-01.jpg)](https://www.sparkfun.com/products/15035)
 
 [*SparkFun ATX Power Connector Breakout - 12V/5V (4-pin) (BOB-15035)*](https://www.sparkfun.com/products/15035)
 
@@ -10,6 +10,7 @@ SparkFun ATX Power Connector Breakout - 12V/5V (4-pin)
 Repository Contents
 -------------------
 
+* **/Documentation** - Data sheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
 
 Documentation
@@ -19,7 +20,7 @@ Documentation
 
 Product Versions
 ----------------
-* [BOB-15035](part URL)
+* [BOB-15035](https://www.sparkfun.com/products/15035)
 
 
 License Information
