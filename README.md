@@ -16,6 +16,8 @@ Do you need to power a project with 12V and 5V from one power supply? The ATX po
 
 ATX power supplies usually have a number of power connectors available to power components for a desktop computer.  One of these connectors is the 4-pin power connector, which is intended to power 12V and 5V computer peripherals (such as disk drives). Depending on the manufacturer of the power supply, the quantity of each connector can vary. If you want to easily grab some juice for your project from this connector, you'll need to connect the breakout board to this port.
 
+**Note:** For the kit version, assembly and a basic knowledge of soldering will be required. The ATX power connector breakout does not come pre-assembled.
+
 Repository Contents
 -------------------
 
