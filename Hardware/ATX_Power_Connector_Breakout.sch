@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,20 +9,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -31,8 +31,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -40,19 +40,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -19576,130 +19576,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Retired">
-<description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
-In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="COMPUTER-PERIPHERAL-POWER-RA">
-<hole x="-10.16" y="0" drill="2.54"/>
-<hole x="10.16" y="0" drill="2.54"/>
-<hole x="-5.08" y="7.62" drill="3.9878"/>
-<hole x="5.08" y="7.62" drill="3.9878"/>
-<wire x1="-11.6332" y1="-3.048" x2="-11.6332" y2="10.16" width="0.2032" layer="21"/>
-<wire x1="-11.6332" y1="10.16" x2="11.6332" y2="10.16" width="0.2032" layer="21"/>
-<wire x1="11.6332" y1="10.16" x2="11.6332" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="11.6332" y1="-3.048" x2="-11.6332" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-11.6332" y1="-3.048" x2="-8.89" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="-6.35" y1="-3.048" x2="-3.81" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-3.048" x2="1.27" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-3.048" x2="6.35" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="11.6332" y1="-3.048" x2="8.89" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="16.51" x2="-5.08" y2="11.43" width="0.508" layer="51"/>
-<wire x1="-5.08" y1="11.43" x2="-3.81" y2="12.7" width="0.508" layer="51"/>
-<wire x1="-5.08" y1="11.43" x2="-6.35" y2="12.7" width="0.508" layer="51"/>
-<wire x1="5.08" y1="16.51" x2="5.08" y2="11.43" width="0.508" layer="51"/>
-<wire x1="5.08" y1="11.43" x2="6.35" y2="12.7" width="0.508" layer="51"/>
-<wire x1="5.08" y1="11.43" x2="3.81" y2="12.7" width="0.508" layer="51"/>
-<text x="-3.048" y="13.335" size="1.27" layer="51" ratio="15">INSERT</text>
-<pad name="5V" x="-7.62" y="-2.54" drill="1.82" diameter="3.302"/>
-<pad name="GND@1" x="-2.54" y="-2.54" drill="1.82" diameter="3.302"/>
-<pad name="GND@2" x="2.54" y="-2.54" drill="1.82" diameter="3.302"/>
-<pad name="12V" x="7.62" y="-2.54" drill="1.82" diameter="3.302"/>
-<text x="-1.27" y="5.207" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="-12.065" y1="-0.381" x2="-12.065" y2="-6.731" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="-12.065" y1="-6.731" x2="12.065" y2="-6.731" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="12.065" y1="-6.731" x2="12.065" y2="-0.381" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="12.065" y1="-0.381" x2="9.779" y2="1.905" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="9.779" y1="1.905" x2="-9.906" y2="1.905" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="-9.906" y1="1.905" x2="-12.065" y2="-0.381" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="-12.065" y1="-0.381" x2="-12.7" y2="-1.016" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="-9.271" y1="2.54" x2="-9.906" y2="1.905" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="9.144" y1="2.54" x2="9.779" y2="1.905" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="12.7" y1="-1.016" x2="12.065" y2="-0.381" width="0.1524" layer="21" style="shortdash"/>
-</package>
-<package name="COMPUTER-PERIPHERAL-POWER">
-<pad name="NC" x="-2.54" y="0" drill="1.778" diameter="3.302"/>
-<pad name="12V" x="-7.62" y="0" drill="1.778" diameter="3.302"/>
-<pad name="GND" x="2.54" y="0" drill="1.778" diameter="3.302"/>
-<pad name="5V" x="7.62" y="0" drill="1.778" diameter="3.302"/>
-<wire x1="-11.7475" y1="4.191" x2="11.7475" y2="4.191" width="0.2032" layer="21"/>
-<wire x1="11.7475" y1="4.191" x2="11.7475" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="11.7475" y1="-2.159" x2="9.652" y2="-4.191" width="0.2032" layer="21"/>
-<wire x1="9.652" y1="-4.191" x2="-9.652" y2="-4.191" width="0.2032" layer="21"/>
-<wire x1="-9.652" y1="-4.191" x2="-11.7475" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="-11.7475" y1="-2.159" x2="-11.7475" y2="4.191" width="0.2032" layer="21"/>
-<text x="-11.43" y="4.572" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-11.43" y="-5.207" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="COMPUTER-PERIPHERAL-POWER">
-<wire x1="5.08" y1="-7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="-3.302" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-3.302" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="3.302" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="3.302" x2="-5.08" y2="-5.842" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-5.842" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-3.302" y2="5.08" width="0.4064" layer="94"/>
-<text x="-5.08" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<text x="-5.08" y="5.842" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<pin name="12V" x="7.62" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="GND@1" x="7.62" y="0" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="GND@2" x="7.62" y="-2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5V" x="7.62" y="-5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-2.794" y="-5.08" size="1.778" layer="94" ratio="15" rot="R90">4-Pin</text>
-<wire x1="-3.302" y1="5.08" x2="-2.54" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-3.302" y1="5.08" x2="-5.08" y2="3.302" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-5.842" x2="-3.302" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="COMPUTER_PERIPHERAL_POWER" prefix="J">
-<gates>
-<gate name="G$1" symbol="COMPUTER-PERIPHERAL-POWER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="RA" package="COMPUTER-PERIPHERAL-POWER-RA">
-<connects>
-<connect gate="G$1" pin="12V" pad="12V"/>
-<connect gate="G$1" pin="5V" pad="5V"/>
-<connect gate="G$1" pin="GND@1" pad="GND@2"/>
-<connect gate="G$1" pin="GND@2" pad="GND@1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="VERTICAL" package="COMPUTER-PERIPHERAL-POWER">
-<connects>
-<connect gate="G$1" pin="12V" pad="12V"/>
-<connect gate="G$1" pin="5V" pad="5V"/>
-<connect gate="G$1" pin="GND@1" pad="NC"/>
-<connect gate="G$1" pin="GND@2" pad="GND"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -20827,6 +20703,44 @@ Silk outline shows header location.
 <text x="-1.397" y="0.762" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.524" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="COMPUTER-PERIPHERAL-POWER-RA-VT">
+<hole x="-10.16" y="0" drill="2.54"/>
+<hole x="10.16" y="0" drill="2.54"/>
+<hole x="-5.08" y="7.62" drill="3.9878"/>
+<hole x="5.08" y="7.62" drill="3.9878"/>
+<wire x1="-11.6332" y1="-3.048" x2="-11.6332" y2="10.16" width="0.2032" layer="21"/>
+<wire x1="-11.6332" y1="10.16" x2="11.6332" y2="10.16" width="0.2032" layer="21"/>
+<wire x1="11.6332" y1="10.16" x2="11.6332" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="11.6332" y1="-3.048" x2="-11.6332" y2="-3.048" width="0.2032" layer="51"/>
+<wire x1="-11.6332" y1="-3.048" x2="-8.89" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="-6.35" y1="-3.048" x2="-3.81" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-3.048" x2="1.27" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-3.048" x2="6.35" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="11.6332" y1="-3.048" x2="8.89" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="16.51" x2="-5.08" y2="11.43" width="0.508" layer="51"/>
+<wire x1="-5.08" y1="11.43" x2="-3.81" y2="12.7" width="0.508" layer="51"/>
+<wire x1="-5.08" y1="11.43" x2="-6.35" y2="12.7" width="0.508" layer="51"/>
+<wire x1="5.08" y1="16.51" x2="5.08" y2="11.43" width="0.508" layer="51"/>
+<wire x1="5.08" y1="11.43" x2="6.35" y2="12.7" width="0.508" layer="51"/>
+<wire x1="5.08" y1="11.43" x2="3.81" y2="12.7" width="0.508" layer="51"/>
+<text x="-3.048" y="13.335" size="1.27" layer="51" ratio="15">INSERT</text>
+<pad name="5V" x="-7.62" y="-2.54" drill="1.82" diameter="3.302"/>
+<pad name="GND@1" x="-2.54" y="-2.54" drill="1.82" diameter="3.302"/>
+<pad name="GND@2" x="2.54" y="-2.54" drill="1.82" diameter="3.302"/>
+<pad name="12V" x="7.62" y="-2.54" drill="1.82" diameter="3.302"/>
+<text x="-1.27" y="5.207" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="-12.065" y1="-0.381" x2="-12.065" y2="-6.731" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="-12.065" y1="-6.731" x2="12.065" y2="-6.731" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="12.065" y1="-6.731" x2="12.065" y2="-0.381" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="12.065" y1="-0.381" x2="9.779" y2="1.905" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="9.779" y1="1.905" x2="-9.906" y2="1.905" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="-9.906" y1="1.905" x2="-12.065" y2="-0.381" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="-12.065" y1="-0.381" x2="-12.7" y2="-1.016" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="-9.271" y1="2.54" x2="-9.906" y2="1.905" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="9.144" y1="2.54" x2="9.779" y2="1.905" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="12.7" y1="-1.016" x2="12.065" y2="-0.381" width="0.1524" layer="21" style="shortdash"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_02">
@@ -20858,6 +20772,28 @@ Silk outline shows header location.
 <pin name="2" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="COMPUTER-PERIPHERAL-POWER">
+<wire x1="5.08" y1="-7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-3.302" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-3.302" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="3.302" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="3.302" x2="-5.08" y2="-5.842" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-5.842" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-3.302" y2="5.08" width="0.4064" layer="94"/>
+<text x="-5.08" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-5.08" y="5.842" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="12V" x="7.62" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="GND@1" x="7.62" y="0" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="GND@2" x="7.62" y="-2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5V" x="7.62" y="-5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-2.794" y="-5.08" size="1.778" layer="94" ratio="15" rot="R90">4-Pin</text>
+<wire x1="-3.302" y1="5.08" x2="-2.54" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.302" y1="5.08" x2="-5.08" y2="3.302" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-5.842" x2="-3.302" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -21395,6 +21331,34 @@ Silk outline shows header location.
 </device>
 </devices>
 </deviceset>
+<deviceset name="COMPUTER_PERIPHERAL_POWER" prefix="J">
+<description>&lt;h3&gt;ATX 4-Pin Power Supply Connector - Right Angle and Vertical PTH Mount&lt;/h3&gt;
+&lt;p&gt;This is a good connector for connecting a computer power supply to a PCB. It is commonly known as the Molex series 8981 connector. The footprint is adjusted for the right angle and vertical connector mounts.&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/15035&gt;ATX Connector Breakout Board&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/15700”&gt;ATX Right Angle Connector - PTH 4-Pin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/15701”&gt;SparkFun ATX Power Connector Breakout Kit - 12V/5V (4-pin)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="COMPUTER-PERIPHERAL-POWER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="RA-VT" package="COMPUTER-PERIPHERAL-POWER-RA-VT">
+<connects>
+<connect gate="G$1" pin="12V" pad="12V"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="GND@1" pad="GND@2"/>
+<connect gate="G$1" pin="GND@2" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="PRT-15700" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-PowerSymbols">
@@ -21575,7 +21539,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="ATX_POWER_CONNECTOR" library="SparkFun-Retired" deviceset="COMPUTER_PERIPHERAL_POWER" device="RA"/>
+<part name="ATX_POWER_CONNECTOR" library="SparkFun-Connectors" deviceset="COMPUTER_PERIPHERAL_POWER" device="RA-VT"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="5MM"/>
