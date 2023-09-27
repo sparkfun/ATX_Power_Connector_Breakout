@@ -28,6 +28,7 @@ Documentation
 -------------------
 
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/atx-power-connector-4-pin-breakout-hookup-guide)**
+* **[Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/15035-sfe_ATX_Power_Connector_Breakout_12V_5V_Power_Supply.fzpz)**
 
 Product Versions
 ----------------
